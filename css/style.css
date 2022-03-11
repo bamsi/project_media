@@ -4,7 +4,7 @@
     justify-content: center;
   }
   .container-wrap {
-    flex-basis: 80%;
+    flex-basis: 70%;
   }
 }
 
@@ -17,6 +17,7 @@ header {
 .section-wrap {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 4px;
 }
 
 .nav-menu {
@@ -25,6 +26,7 @@ header {
 
 .media-wrap {
   flex: 3;
+  display: flex;
 }
 
 .contact-block {
@@ -60,4 +62,12 @@ footer {
 
 .nav-menu li a:hover {
   text-decoration: underline;
+}
+
+.thumb-nail {
+  flex: 1;
+}
+
+.active-media {
+  flex: 3;
 }
