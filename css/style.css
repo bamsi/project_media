@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+@media (min-width: 760px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  .container-wrap {
+    flex-basis: 80%;
+  }
+}
+
+header {
+  height: 100px;
+  background-color: #d5dfe9;
+  border-bottom: 2px solid #afb8c1;
+}
+
+.section-wrap {
+  display: flex;
+  height: 500px;
+  margin-top: 4px;
+}
+
+.nav-menu {
+  flex: 1;
+  border: 2px solid #afb8c1;
+}
+
+.media-wrap {
+  flex: 3;
+}
+
+.contact-block {
+  height: 200px;
+  background-color: #444040;
+  margin-top: 4px;
+}
+
+footer {
+  height: 50px;
+  background-color: #d5dfe9;
+  margin-top: 4px;
+}
