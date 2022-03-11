@@ -1,8 +1,4 @@
-body {
-  margin: 0;
-}
-
-@media (min-width: 760px) {
+@media (min-width: 640px) {
   body {
     display: flex;
     justify-content: center;
@@ -20,13 +16,11 @@ header {
 
 .section-wrap {
   display: flex;
-  height: 500px;
-  margin-top: 4px;
+  flex-wrap: wrap;
 }
 
 .nav-menu {
   flex: 1;
-  border: 2px solid #afb8c1;
 }
 
 .media-wrap {
@@ -43,4 +37,27 @@ footer {
   height: 50px;
   background-color: #d5dfe9;
   margin-top: 4px;
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  padding: 8px;
+  margin: 2px;
+  border: 1px solid #afb8c1;
+  background-color: #f7f4f4;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #07052c;
+  font-size: 18px;
+}
+
+.nav-menu li a:hover {
+  text-decoration: underline;
 }
