@@ -22,6 +22,7 @@ header {
   height: 100px;
   background-color: #d5dfe9;
   border-bottom: 2px solid #afb8c1;
+  display: flex;
 }
 
 .section-wrap {
@@ -35,17 +36,20 @@ header {
 }
 
 .contact-block {
-  height: 200px;
-  background-color: #444040;
-  margin-top: 4px;
+  padding: 2rem 15rem;
+  margin: 0;
 }
 
 footer {
   height: 50px;
   background-color: #d5dfe9;
-  margin-top: 4px;
+  display: flex;
 }
 
+.footer {
+  margin: auto;
+  font-weight: 600;
+}
 .nav-menu ul {
   list-style-type: none;
   padding: 0;
@@ -97,4 +101,39 @@ footer {
   color: #444040;
   font-weight: 500;
   margin: 0;
+}
+
+.logo {
+  flex-basis: 100px;
+  padding: 12px 0 0 12px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: auto;
+}
+.sign-up {
+  border-radius: 15px;
+  display: flex;
+  padding: 1rem 2rem;
+  flex-direction: column;
+  background-color: #4d8db4;
+  color: #fff;
+}
+
+.contact-block h3 {
+  font-size: 26px;
+}
+.contact-block p {
+  font-size: 18px;
+}
+
+.sign-button input {
+  padding: 1rem 2rem;
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: #fff;
+  background-color: #4d8db4;
+  color: #e5e7eb;
 }
