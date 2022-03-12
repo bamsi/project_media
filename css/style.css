@@ -36,8 +36,9 @@ header {
 }
 
 .contact-block {
-  padding: 2rem 15rem;
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
 }
 
 footer {
@@ -115,11 +116,11 @@ footer {
 }
 .sign-up {
   border-radius: 15px;
-  display: flex;
   padding: 1rem 2rem;
   flex-direction: column;
   background-color: #4d8db4;
   color: #fff;
+  flex-basis: 600px;
 }
 
 .contact-block h3 {
